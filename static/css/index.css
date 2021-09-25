@@ -1,0 +1,75 @@
+body {
+  background-image: url(../img/background_scaled.jpg);
+  color: #FFF;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin: auto;
+  display: block;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+hr {
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff300;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ff8b00;
+}
+
+.button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background-color: #777777;
+  color: #FFF;
+}
+
+.local-restaurant {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.restaurant-result {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #0083ff;
+  margin: 20px 0;
+}
+
+.social-media {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 20px;
+}
