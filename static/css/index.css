@@ -1,43 +1,64 @@
 body {
-  background-color: #008080;
+  background-image: url("../img/background.jpg");
   color: #FFF;
   font-family: 'Montserrat', sans-serif;
 }
 
+button {
+  font-weight: 500;
+  margin: auto;
+  display: block;
+  padding: 0.375rem;
+  border-radius: 0.375rem;
+}
+
 a {
-  color: #FFD700;
+  text-decoration: none;
+  color: #ff8b00;
 }
 
 a:hover {
   text-decoration: none;
-  color: #98FB98;
+  color: #fff300;
 }
 
-.desktop-h1 {
-  font-size: 3.125rem;
-  margin-top: 5rem;
+.button-row {
+  margin-top: 3.125rem;
+}
+
+.desktop-title {
+  font-size: 3.75rem;
+  text-align: center;
+  margin-top: 3.125rem;
 }
 
 .desktop-subtitle {
-  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 3.125rem;
 }
 
-.desktop-h2 {
-  font-family: 'Playfair Display', serif;
-  font-size: 3.5rem;
-  padding: 1rem;
+.button {
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
 }
 
-.intro {
-  margin: auto;
-  display: block;
+.button:hover {
+  background-color: #777777;
+  color: #FFF;
+}
+
+.desktop-local-restaurant {
   text-align: center;
 }
 
-.desktop-facts {
-  margin-top: 6.25rem;
+.desktop-restaurant-result {
+  margin-top: 5rem;
   border: 0.375rem solid #FFF;
   padding: 0.25rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fff300;
 }
 
 .desktop-social-media {
@@ -45,77 +66,105 @@ a:hover {
   left: 0;
   bottom: 0;
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.125rem;
   text-align: center;
 }
 
 @media screen and (max-width: 480px) {
-  .mobile-small-h1 {
-    font-size: 1.25rem;
-    margin-top: 1rem;
+  .button-row {
+    margin-top: 0.625rem;
+  }
+
+  .mobile-small-title {
+    font-size: 1.875rem;
+    margin-top: 0.625rem;
   }
 
   .mobile-small-subtitle {
-    font-size: 0.75rem;
+    font-size: 1rem;
+    margin-bottom: 0.625rem;
   }
 
-  .mobile-small-h2 {
-    font-size: 1.25rem;
-    padding: 0.125rem;
+  .mobile-small-local-restaurant {
+    font-size: 1rem;
   }
 
-  .mobile-small-facts {
-    margin-top: 1rem;
+  .mobile-small-restaurant-result {
+    margin-top: 0.625rem;
     border: 0.125rem solid #FFF;
+    font-size: 1.25rem;
   }
 
   .mobile-small-social-media {
-    position: relative;
-    margin-top: 1rem;
     font-size: 1rem;
-    text-align: center;
   }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-  .mobile-small-h1 {
-    font-size: 1.875rem;
-    margin-top: 1rem;
+  .button-row {
+    margin-top: 1.25rem;
+  }
+
+  .mobile-small-title {
+    font-size: 2.5rem;
+    margin-top: 0.625rem;
   }
 
   .mobile-small-subtitle {
+    font-size: 1.125rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .mobile-small-local-restaurant {
     font-size: 1rem;
   }
 
-  .mobile-small-h2 {
-    font-size: 1.25rem;
-    padding: 0.125rem;
-  }
-
-  .mobile-small-facts {
-    margin-top: 1.25rem;
+  .mobile-small-restaurant-result {
+    margin-top: 0.625rem;
     border: 0.25rem solid #FFF;
+    font-size: 1.625rem;
   }
 
   .mobile-small-social-media {
     position: relative;
-    margin-top: 1.25rem;
     font-size: 1rem;
-    text-align: center;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 769px) and (max-width: 1024px) {
+  .mobile-large-subtitle {
+    font-size: 1.125rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .mobile-large-local-restaurant {
+    font-size: 1rem;
+  }
+
+  .mobile-large-restaurant-result {
+    margin-top: 0.625rem;
+    border: 0.25rem solid #FFF;
+    font-size: 1.875rem;
+  }
+
+  .mobile-large-social-media {
+    position: relative;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .mobile-large-h1 {
-    margin-top: 1rem;
+  .mobile-large-subtitle {
+    font-size: 1.125rem;
+    margin-bottom: 0.625rem;
   }
 
-  .mobile-large-h2 {
-    padding: 0.125rem;
+  .mobile-large-local-restaurant {
+    font-size: 1rem;
   }
 
-  .mobile-large-facts {
-    margin-top: 1.25rem;
+  .mobile-large-restaurant-result {
+    margin-top: 0.625rem;
     border: 0.25rem solid #FFF;
+    font-size: 1.875rem;
   }
 }
