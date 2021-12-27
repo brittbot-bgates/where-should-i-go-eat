@@ -1,0 +1,170 @@
+body {
+  background-image: url("../img/background.jpg");
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button {
+  font-weight: 500;
+  margin: auto;
+  display: block;
+  padding: 0.375rem;
+  border-radius: 0.375rem;
+}
+
+a {
+  text-decoration: none;
+  color: #ff8b00;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff300;
+}
+
+.button-row {
+  margin-top: 3.125rem;
+}
+
+.desktop-title {
+  font-size: 3.75rem;
+  text-align: center;
+  margin-top: 3.125rem;
+}
+
+.desktop-subtitle {
+  text-align: center;
+  margin-bottom: 3.125rem;
+}
+
+.button {
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+.button:hover {
+  background-color: #777777;
+  color: #FFF;
+}
+
+.desktop-local-restaurant {
+  text-align: center;
+}
+
+.desktop-restaurant-result {
+  margin-top: 5rem;
+  border: 0.375rem solid #FFF;
+  padding: 0.25rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #fff300;
+}
+
+.desktop-social-media {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .button-row {
+    margin-top: 0.625rem;
+  }
+
+  .mobile-small-title {
+    font-size: 1.875rem;
+    margin-top: 0.625rem;
+  }
+
+  .mobile-small-subtitle {
+    font-size: 1rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .mobile-small-local-restaurant {
+    font-size: 1rem;
+  }
+
+  .mobile-small-restaurant-result {
+    margin-top: 0.625rem;
+    border: 0.125rem solid #FFF;
+    font-size: 1.25rem;
+  }
+
+  .mobile-small-social-media {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .button-row {
+    margin-top: 1.25rem;
+  }
+
+  .mobile-small-title {
+    font-size: 2.5rem;
+    margin-top: 0.625rem;
+  }
+
+  .mobile-small-subtitle {
+    font-size: 1.125rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .mobile-small-local-restaurant {
+    font-size: 1rem;
+  }
+
+  .mobile-small-restaurant-result {
+    margin-top: 0.625rem;
+    border: 0.25rem solid #FFF;
+    font-size: 1.625rem;
+  }
+
+  .mobile-small-social-media {
+    position: relative;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (orientation: landscape) and (min-width: 769px) and (max-width: 1024px) {
+  .mobile-large-subtitle {
+    font-size: 1.125rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .mobile-large-local-restaurant {
+    font-size: 1rem;
+  }
+
+  .mobile-large-restaurant-result {
+    margin-top: 0.625rem;
+    border: 0.25rem solid #FFF;
+    font-size: 1.875rem;
+  }
+
+  .mobile-large-social-media {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mobile-large-subtitle {
+    font-size: 1.125rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .mobile-large-local-restaurant {
+    font-size: 1rem;
+  }
+
+  .mobile-large-restaurant-result {
+    margin-top: 0.625rem;
+    border: 0.25rem solid #FFF;
+    font-size: 1.875rem;
+  }
+}
