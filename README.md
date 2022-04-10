@@ -7,4 +7,4 @@ Yeah, we didn't stick to the choice either. :smiley:
 ## Updates
 9/28/21: After translating the code into JavaScript/Node for another project I liked the frontend redesign that I copied it over to this project. Because of that I created a new version called "build_v1."
 ## Website
-[Where Should I Go Eat?](https://www.whereshouldigoeat.com/)
+[Where Should I Go Eat?](http://whereshouldigoeat.com/)
